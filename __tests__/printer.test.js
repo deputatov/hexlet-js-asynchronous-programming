@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import fs from 'fs';
 import { jest } from '@jest/globals';
 import print from '../src/printer';
