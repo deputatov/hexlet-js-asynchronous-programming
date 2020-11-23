@@ -1,7 +1,7 @@
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import write from '../src/writer.js';
+import write from '../src/writer';
 
 test('readFile', () => {
   const data = 'example';
