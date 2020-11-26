@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-import { promises as fs, promises } from 'fs';
+import { promises as fs } from 'fs';
 
 export const exchange = async (filepath1, filepath2) => {
   const [data1, data2] = await Promise.all([
